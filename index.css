@@ -6,7 +6,6 @@
 
 body {
   background-color: #eeeeee;
-  font-family: "Arimo", sans-serif;
 }
 
 /* CABEÇALHO */
@@ -110,6 +109,7 @@ body {
   justify-content: space-between;
   padding: 60px;
   gap: 8px;
+  font-family: "Arimo", sans-serif;
 }
 
 .caixas-amarela {
@@ -152,6 +152,7 @@ body {
 .duvida p {
   font-size: 16px;
   margin: 6px;
+  font-family: "Arimo", sans-serif;
 }
 
 .pergunta {
