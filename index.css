@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Arimo", sans-serif;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+  background-color: #00057d;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 24px 80px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.menu {
+  width: 40px;
+}
+
+.Botao {
+  background-color: #ffe600;
+  height: 60px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-family: "Rammetto One", sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b6bfff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(0, 3, 62);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff8ac;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* PERGUNTAS FREQUENTES E TITULOS */
+.perguntas {
+  background-color: #0029ba;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  margin: 16px;
+}
+
+.frequentes,
+.tituloo {
+  font-family: "Rammetto One", sans-serif;
+}
+
+.tituloo {
+  margin: 20px;
+  color: #0029ba;
+}
+
+/* CAIXAS DE PERGUNTAS */
+.caixa {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.caixas-amarela,
+.caixas-azul {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 8px;
+}
+
+.caixas-amarela {
+  background-color: #ffdd2c;
+  color: #000;
+}
+
+.caixas-azul {
+  background-color: #0029ba;
+  color: #fff;
+}
+
+.azull {
+  color: #0029ba;
+  font-family: "Rammetto One", sans-serif;
+  margin: 4px;
+}
+
+.amarelo {
+  color: #ffd600;
+  font-family: "Rammetto One", sans-serif;
+  margin: 4px;
+}
+
+/* FORMULÁRIO DE DÚVIDAS */
+.duvida {
+  background-color: #0029ba;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.duvidaa {
+  font-family: "Rammetto One", sans-serif;
+}
+
+.duvida p {
+  font-size: 16px;
+  margin: 6px;
+}
+
+.pergunta {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pergunta input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.pergunta button {
+  background-color: #ffdd2c;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.voltar button {
+  background-color: #ffd600;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 16px;
+  font-family: "Arimo";
+}
+
+/* IMAGENS */
+img {
+  width: 120px;
+}
+
+.icons {
+  width: 80px;
+}
+
+/* RODAPÉ */
+.roda-pe {
+  background-color: #000241;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.sobre-nos,
+.sobre-nos2 {
+  font-size: 15px;
+  color: #fffdf1;
+}
+
+.sobre-nos {
+  font-family: "Rammetto One", sans-serif;
+}
+
+.sobre-nos2 {
+  font-family: "Arimo", sans-serif;
+}
+
+.contato {
+  font-family: "Arimo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 600px;
+}
+
+.caixa8 {
+  display: flex;
+  justify-content: end;
+}
